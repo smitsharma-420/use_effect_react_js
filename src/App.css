@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.useEffect, .useEffect2{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.useEffectApi {
+  font-family: "Marcellus";
+  background-color: rgb(255, 255, 255);
+}
+
+.github-main-heading{
+  font-size: 2.5rem;
+  font-family: "Marcellus";
+  text-align: center;
+  padding-top: 1rem;
+  color: #00246B;
+}
+
+.useEffect_main button{
+  padding: 0.5rem 1rem;
+  font-size: 1.13rem;
+}
+
+.useEffect2 p{
+  font-size: 2rem;
+}
+
+.github-users-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.879rem;
+  grid-gap: 1.875rem;
+}
+
+.user-card{
+  background-color: #CADCFC;
+  border-radius: 0.625rem;
+}
+.user-card-wrp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: #00246B;
+}
+.userDetails-wrp{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 5px 8px;
+  border-radius: 0.625rem;
+  background-color: #a5c6ff;
+}
+.user-details{
+  width: 70%;
+}
+.profile-image {
+  width: 30%;
+}
+
+span{
+  font-size: 1.5rem;
+}
+.small-heading{
+  font-size: 1rem;
+  color: #697565;
+}
+.username{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.userId{
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+  padding-top: 5px;
+  text-align: end;
+  font-weight: bold;
+}
