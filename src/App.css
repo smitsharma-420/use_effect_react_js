@@ -95,3 +95,42 @@ span{
   text-align: end;
   font-weight: bold;
 }
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 300px;
+  margin: 16px;
+  height: initial;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}

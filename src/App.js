@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffectApi from './Components/useEffectApi';
+import DynamicData from"./Components/DynamicData"
 
 function App() {
   return (
     <div className="App">
-      <UseEffectApi/>
+      <DynamicData/>
     </div>
   );
 }
